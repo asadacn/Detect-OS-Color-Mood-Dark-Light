@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect OS Color Mood - Dark / Light  </title>
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds|Yeon+Sung&display=swap" rel="stylesheet">
+    <style>  
+         h1{
+            color: red;
+            text-align: center;
+            font-family: 'Trade Winds', 'Cursive';
+            margin-top: 10%;
+            font-size: 350%;
+        }
+        .paragraph{
+            text-align: justify;
+            margin-top: 5%;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: 150%;
+            color:firebrick;
+            font-family: 'Yeon Sung','Cursive' ;
+            line-height: 180%;
+        } 
+
+        @media (prefers-color-scheme: dark) {
+        body , .paragraph { background:  #333; color: lightgreen; }
+        h1 { color:greenyellow}
+        }
+
+        @media (prefers-color-scheme: light) {
+            body   { background: white; color:  #555; }
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Detect OS Color Mood - Dark / Light  </h1>
+    <div class="paragraph">
+        <h3>What is Lorem Ipsum?</h3>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</body>
+</html>
